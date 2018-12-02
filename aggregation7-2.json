@@ -1,0 +1,14 @@
+{
+	"query":{
+		"match":{
+			"location_group":"Denver"
+		}
+	},
+	"aggregations":{
+		"top_tags":{
+			"terms":{
+				"field":"tags.verbatim"
+			}	
+		}
+	}
+}

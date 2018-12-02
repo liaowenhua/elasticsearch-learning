@@ -1,0 +1,9 @@
+{
+	"aggregations":{
+		"attendess_stats":{
+			"stats":{
+				"script":"doc['attendees'].values.length"
+			}
+		}
+	}
+}

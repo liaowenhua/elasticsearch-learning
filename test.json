@@ -1,0 +1,9 @@
+{
+	"aggregations":{
+		"top_tags":{
+			"terms":{
+				"field":"tags.verbatim"
+			}	
+		}
+	}
+}
